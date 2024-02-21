@@ -1,0 +1,21 @@
+{
+  "name": "download_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "playwright test --config=playwright.config.js --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "csv-parser": "^3.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
